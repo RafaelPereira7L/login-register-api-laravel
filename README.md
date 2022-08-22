@@ -31,20 +31,22 @@
     <img src="public/imgs/2.png"/>
 </div>
 <br>
+
 <div style="display: flex; flex-direction: column;">
     <h2>POST RESPONSES</h2>
-    LOGIN
+    <h3>LOGIN</h3>
     <img src="public/imgs/loginfail.png"/>
 <br>
     <img src="public/imgs/loginsuccess.png"/>
     <br>
-    REGISTER
+    <h3>REGISTER</h3>
     <img src="public/imgs/registerEmailUnique.png"/>
 <br>
     <img src="public/imgs/registerEmpty.png"/>
 <br>
     <img src="public/imgs/registersuccess.png"/>
 </div>
+
 <br>
 
 <h2 align="center">TECHS</h2>

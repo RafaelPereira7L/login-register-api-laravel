@@ -18,9 +18,7 @@ class UserController extends Controller
     }
 
     public function store(StoreUserRequest $request) {
-        $request->header('Allow-Control-Allow-Origin', '*');
         $request->header('Accept', 'application/json');
-        $request->header('Content-Type', 'application/json');
 
         if($input = $request->validated()) {
 
@@ -34,7 +32,6 @@ class UserController extends Controller
             'status' => 'Registrado com sucesso!',
             'user' => $user], 201);
         }
-
             else {
                 return response()->json([validator()->errors()], 400);
         }

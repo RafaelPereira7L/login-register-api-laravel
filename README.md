@@ -1,3 +1,63 @@
+<h1 align="center">Simple Login & Register API with Laravel</h1>
+
+## API Routes
+```bash
+    GET all users -> localhost/api/users
+    GET a user by ID -> localhost/api/user/{id}
+```
+
+```bash
+    POST login user route -> localhost/api/user/login 
+    {
+        email: email@email
+        password: password
+    }
+```
+
+```bash
+    POST register user route -> localhost/api/user/register
+    {
+        name: name
+        email: email@email
+        password: password
+    }
+```
+
+## API Responses
+<br>
+<h2>GET RESPONSES</h2>
+<div style="display: flex; flex-direction: column;">
+    <img src="public/imgs/1.png"/>
+    <img src="public/imgs/2.png"/>
+</div>
+<br>
+<div style="display: flex; flex-direction: column;">
+    <h2>POST RESPONSES</h2>
+    LOGIN
+    <img src="public/imgs/loginfail.png"/>
+<br>
+    <img src="public/imgs/loginsuccess.png"/>
+    <br>
+    REGISTER
+    <img src="public/imgs/registerEmailUnique.png"/>
+<br>
+    <img src="public/imgs/registerEmpty.png"/>
+<br>
+    <img src="public/imgs/registersuccess.png"/>
+</div>
+<br>
+
+<h2 align="center">TECHS</h2>
+
+
+<div align="center">
+    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
+    <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"/>
+    <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"/>
+    <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
+</div>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
